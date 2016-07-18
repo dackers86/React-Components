@@ -1,0 +1,32 @@
+{
+  "name": "react-components",
+  "version": "1.0.0",
+  "description": "react components example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dackers86/React-Components.git"
+  },
+  "author": "Darren Ackers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dackers86/React-Components/issues"
+  },
+  "homepage": "https://github.com/dackers86/React-Components#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "browserify": "^13.0.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "multer": "^1.1.0",
+    "react": "^15.1.0",
+    "reactify": "^1.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.2"
+  }
+}
