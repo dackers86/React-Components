@@ -24,9 +24,14 @@
     "express": "^4.14.0",
     "multer": "^1.1.0",
     "react": "^15.1.0",
-    "reactify": "^1.1.1"
+    "reactify": "^1.1.1",
+    "webpack": "^1.13.1"
   },
   "devDependencies": {
     "nodemon": "^1.9.2"
+  },
+  "scripts": {
+    "dev": "webpack -d --watch",
+    "build" : "webpack -p"
   }
 }
